@@ -64,9 +64,9 @@ const getCart = computed(() => {
         <!-- ---------------------------------------------- -->
         <!-- Mega menu -->
         <!-- ---------------------------------------------- -->
-        <div class="hidden-md-and-down">
+        <!-- <div class="hidden-md-and-down">
             <Navigations />
-        </div>
+        </div> -->
         <v-spacer />
         <!-- ---------------------------------------------- -->
         <!---right part -->
@@ -74,18 +74,18 @@ const getCart = computed(() => {
         <!-- ---------------------------------------------- -->
         <!-- translate -->
         <!-- ---------------------------------------------- -->
-        <LanguageDD />
+        <!-- <LanguageDD /> -->
 
         
 
         <!-- ---------------------------------------------- -->
         <!-- ShoppingCart -->
         <!-- ---------------------------------------------- -->
-        <v-btn icon variant="text" color="primary" to="/ecommerce/checkout">
+        <!-- <v-btn icon variant="text" color="primary" to="/ecommerce/checkout">
             <v-badge  color="error" :content="getCart?.length">
                 <ShoppingCartIcon stroke-width="1.5" size="22" />
             </v-badge>
-        </v-btn>
+        </v-btn> -->
 
         <!-- ---------------------------------------------- -->
         <!-- Notification -->
@@ -93,7 +93,7 @@ const getCart = computed(() => {
         <NotificationDD />
 
         <!-- right sidebar -->
-        <v-btn
+        <!-- <v-btn
             variant="text"
             color="primary"
             class="hidden-lg-and-up"
@@ -101,7 +101,7 @@ const getCart = computed(() => {
             @click.stop="appsdrawer = !appsdrawer"
         >
             <GridDotsIcon size="17" stroke-width="1.5" />
-        </v-btn>
+        </v-btn> -->
 
         <!-- ---------------------------------------------- -->
         <!-- User Profile -->

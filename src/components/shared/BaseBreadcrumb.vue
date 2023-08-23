@@ -8,8 +8,8 @@ const props = defineProps({
 </script>
 
 <template>
-    <v-card class="bg-lightprimary elevation-0 rounded-md mb-8">
-        <div class="px-8 py-8 py-lg-0">
+    <v-card class="bg-secondary elevation-0 rounded-md mb-8">
+        <div class="px-8 py-8">
             <div class="d-flex justify-space-between">
                 <div class="d-flex py-0 align-center">
                     <div>
@@ -24,11 +24,11 @@ const props = defineProps({
                         </v-breadcrumbs>
                     </div>
                 </div>
-                <div class="d-none py-0 d-lg-block overflow-hidden">
+                <!-- <div class="d-none py-0 d-lg-block overflow-hidden">
                     <div class="mb-n16 mt-3">
                         <img src="@/assets/images/breadcrumb/ChatBc.png" alt="breadcrumb" />
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </v-card>

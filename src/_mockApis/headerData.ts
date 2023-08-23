@@ -55,20 +55,20 @@ const profileDD: profileType[] = [
         avatar: proUser1,
         title: 'My Profile',
         subtitle: 'Account settings',
-        href: '/apps/user/profile'
+        href: '/account-setting'
     },
-    {
-        avatar: proUser2,
-        title: 'My Inbox',
-        subtitle: 'Messages & Emails',
-        href: '/'
-    },
-    {
-        avatar: proUser3,
-        title: 'My Tasks',
-        subtitle: 'To-do and Daily tasks',
-        href: '/'
-    }
+    // {
+    //     avatar: proUser2,
+    //     title: 'My Inbox',
+    //     subtitle: 'Messages & Emails',
+    //     href: '/'
+    // },
+    // {
+    //     avatar: proUser3,
+    //     title: 'My Tasks',
+    //     subtitle: 'To-do and Daily tasks',
+    //     href: '/'
+    // }
 ];
 
 // 

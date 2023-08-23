@@ -7,8 +7,8 @@ const BLUE_THEME: ThemeTypes = {
         'border-color': '#e5eaef'
     },
     colors: {
-        primary: '#5D87FF',
-        secondary: '#49BEFF',
+        primary: '#09D1A3',
+        secondary: '#033b4c',
         info: '#539BFF',
         success: '#13DEB9',
         accent: '#FFAB91',
