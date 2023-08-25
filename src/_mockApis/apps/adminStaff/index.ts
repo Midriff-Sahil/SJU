@@ -26,7 +26,7 @@ const contacts: KeyedObject[] = [
         usermail: 'hgover@gmail.com',
         phone: '+123 456 789',
         jdate: '12-10-2014',
-        role: 'Designer',
+        status: true,
         rolestatus: 'primary'
     },
     {
@@ -36,7 +36,7 @@ const contacts: KeyedObject[] = [
         usermail: 'hgover@gmail.com',
         phone: '+234 456 789',
         jdate: '10-09-2014',
-        role: 'Developer',
+        status: false,
         rolestatus: 'secondary'
     },
     {
@@ -46,7 +46,7 @@ const contacts: KeyedObject[] = [
         usermail: 'hgover@gmail.com',
         phone: '+345 456 789',
         jdate: '01-10-2013',
-        role: 'Accountant',
+        status: false,
         rolestatus: 'error'
     },
     {
@@ -56,7 +56,7 @@ const contacts: KeyedObject[] = [
         usermail: 'hgover@gmail.com',
         phone: '+456 456 789',
         jdate: '02-10-2017',
-        role: 'Designer',
+        status: true,
         rolestatus: 'success'
     },
     {
@@ -66,7 +66,7 @@ const contacts: KeyedObject[] = [
         usermail: 'hgover@gmail.com',
         phone: '+567 456 789',
         jdate: '10-9-2015',
-        role: 'HR',
+        status: false,
         rolestatus: 'info'
     },
     {
@@ -76,7 +76,7 @@ const contacts: KeyedObject[] = [
         usermail: 'hgover@gmail.com',
         phone: '+678 456 789',
         jdate: '10-5-2013',
-        role: 'Designer',
+        status: true,
         rolestatus: 'warning'
     },
     {
@@ -86,7 +86,7 @@ const contacts: KeyedObject[] = [
         usermail: 'hgover@gmail.com',
         phone: '+123 456 789',
         jdate: '05-10-2012',
-        role: 'Manager',
+        status: true,
         rolestatus: 'primary'
     },
     {
@@ -96,7 +96,7 @@ const contacts: KeyedObject[] = [
         usermail: 'hgover@gmail.com',
         phone: '+234 456 789',
         jdate: '11-10-2014',
-        role: 'Chairman',
+        status: true,
         rolestatus: 'secondary'
     },
     {
@@ -106,7 +106,7 @@ const contacts: KeyedObject[] = [
         usermail: 'hgover@gmail.com',
         phone: '+345 456 789',
         jdate: '12-5-2017',
-        role: 'Designer',
+        status: true,
         rolestatus: 'error'
     },
     {
@@ -116,28 +116,29 @@ const contacts: KeyedObject[] = [
         usermail: 'hgover@gmail.com',
         phone: '+456 456 789',
         jdate: '18-5-2009',
-        role: 'Developer',
+        status: false,
         rolestatus: 'success'
     },
+    
     {
-        id: '#565',
-        avatar: user3,
-        userinfo: 'Julian Josephs',
+        id: '#564',
+        avatar: user5,
+        userinfo: 'Leanne Graham',
         usermail: 'hgover@gmail.com',
-        phone: '+345 456 789',
-        jdate: '01-10-2013',
-        role: 'Accountant',
-        rolestatus: 'error'
+        phone: '+567 456 789',
+        jdate: '10-9-2015',
+        status: false,
+        rolestatus: 'info'
     },
     {
-        id: '#785',
-        avatar: user4,
-        userinfo: 'Jan Petrovic',
+        id: '#980',
+        avatar: user6,
+        userinfo: 'Mrs. Dennis Schulist',
         usermail: 'hgover@gmail.com',
-        phone: '+456 456 789',
-        jdate: '02-10-2017',
-        role: 'Designer',
-        rolestatus: 'success'
+        phone: '+678 456 789',
+        jdate: '10-5-2013',
+        status: true,
+        rolestatus: 'warning'
     }
 ];
 

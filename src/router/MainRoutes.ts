@@ -9,7 +9,12 @@ const MainRoutes = {
         {
             name: 'Dashboard',
             path: '/adminDashboards',
-            component: () => import('@/views/dashboard/modern/index.vue')
+            component: () => import('@/views/admin_module/dashboard/modern/index.vue')
+        },
+        {
+            name: 'Staff',
+            path: '/adminStaff',
+            component: () => import('@/views/admin_module/staff/staff.vue')
         },
         {
             name: 'Account Setting',

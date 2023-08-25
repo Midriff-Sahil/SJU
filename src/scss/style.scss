@@ -46,3 +46,26 @@
 .logoStyleHeader{
     max-width:180px;
 }
+.iconCardTop{
+    max-width:40px;
+}
+.cardStyleTop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.innerCardImg {
+    width: 60px;
+    display: flex;
+    margin-right: 20px;
+    padding-right: 10px;
+}
+
+.innerCardContent {
+    width: calc(100% - 80px);
+}
+.v-pagination__item--is-active button.v-btn.v-btn--icon {
+    background-color: #033b4c;
+    color: #fff;
+}

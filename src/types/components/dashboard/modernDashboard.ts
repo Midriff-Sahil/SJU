@@ -14,14 +14,13 @@ type weeklyStats={
 
 /*Top Projects*/
 type topProjects={
-    img: string;
     activestate: string;
-    leadname: string;
-    designation: string;
-    projectname: string;
+    programname: string;
+    videosCount: string;
+    programAmount: string;
     statuscolor: string;
     statustext: string;
-    money: string;
+    totalSubscription: string;
 };
 
 /*Top Cards*/
@@ -31,6 +30,7 @@ type topCards={
     number: string;
     bgcolor: string;
     textcolor: string;
+    colorcode:string;
 };
 
 export type{userCard, weeklyStats,topProjects,topCards}

@@ -7,11 +7,12 @@ import user4 from "@/assets/images/profile/user-4.jpg";
 
 /*--Top cards--*/
 import card_icon1 from "@/assets/images/svgs/icon-user-male.svg"
-import card_icon2 from "@/assets/images/svgs/icon-briefcase.svg"
-import card_icon3 from "@/assets/images/svgs/icon-mailbox.svg"
-import card_icon4 from "@/assets/images/svgs/icon-favorites.svg"
-import card_icon5 from "@/assets/images/svgs/icon-speech-bubble.svg"
-import card_icon6 from "@/assets/images/svgs/icon-connect.svg"
+// import card_icon2 from "@/assets/images/svgs/icon-briefcase.svg"
+import card_icon2 from "@/assets/images/sju/play-button.png"
+// import card_icon3 from "@/assets/images/svgs/icon-mailbox.svg"
+import card_icon4 from "@/assets/images/sju/totalCourse.png"
+import card_icon5 from "@/assets/images/sju/dollar.png"
+// import card_icon6 from "@/assets/images/svgs/icon-connect.svg"
 
 /*--Blog Cards--*/
 const userCardData: userCard[] = [
@@ -49,44 +50,95 @@ const weeklyStatsData: weeklyStats[] = [
 /*--Top Projects --*/
 const topProjectsData: topProjects[] = [
     {
-        img: user1,
         activestate: "",
-        leadname: "Sunil Joshi",
-        designation: "Web Designer",
-        projectname: "Elite Admin",
+        programname: "4 YEAR Medical Doctor",
+        videosCount: "60",
+        totalSubscription: "300",
         statuscolor: "success",
         statustext: "Low",
-        money: "$3.9K",
+        programAmount: "$12k",
     },
     {
-        img: user2,
         activestate: "",
-        leadname: "John Deo",
-        designation: "Web Developer",
-        projectname: "Flexy Admin",
+        programname: "5 Year Medical Doctor",
+        videosCount: "55",
+        totalSubscription: "230",
         statuscolor: "warning",
         statustext: "Medium",
-        money: "$24.5K",
+        programAmount: "$8K",
     },
     {
-        img: user3,
         activestate: "",
-        leadname: "Nirav Joshi",
-        designation: "Web Manager",
-        projectname: "Material Pro",
+        programname: "Bachelor of Culinary Arts",
+        videosCount: "58",
+        totalSubscription: "210",
         statuscolor: "error",
         statustext: "High",
-        money: "$12.8K",
+        programAmount: "$11.8K",
     },
     {
-        img: user4,
         activestate: "",
-        leadname: "Yuvraj Sheth",
-        designation: "Project Manager",
-        projectname: "Xtreme Admin",
+        programname: "Bachelor of Marine Biology",
+        videosCount: "30",
+        totalSubscription: "180",
         statuscolor: "secondary",
         statustext: "Very High",
-        money: "$2.4K",
+        programAmount: "$6K",
+    },
+
+    {
+        activestate: "",
+        programname: "Bachelor of Midwifery",
+        videosCount: "24",
+        totalSubscription: "160",
+        statuscolor: "success",
+        statustext: "Low",
+        programAmount: "$3.9K",
+    },
+    {
+        activestate: "",
+        programname: "Bachelor of Pharmacy",
+        videosCount: "48",
+        totalSubscription: "158",
+        statuscolor: "warning",
+        statustext: "Medium",
+        programAmount: "$9.5K",
+    },
+    {
+        activestate: "",
+        programname: "Bachelor of Nursing",
+        videosCount: "34",
+        totalSubscription: "150",
+        statuscolor: "error",
+        statustext: "High",
+        programAmount: "$7.5K",
+    },
+    {
+        activestate: "",
+        programname: "Bachelor in Business Administration",
+        videosCount: "55",
+        totalSubscription: "130",
+        statuscolor: "secondary",
+        statustext: "Very High",
+        programAmount: "$2.4K",
+    },
+    {
+        activestate: "",
+        programname: "Bachelor in Business Management",
+        videosCount: "40",
+        totalSubscription: "128",
+        statuscolor: "error",
+        statustext: "High",
+        programAmount: "$8.8K",
+    },
+    {
+        activestate: "",
+        programname: "Bachelor of Hospitality Management",
+        videosCount: "36",
+        totalSubscription: "106",
+        statuscolor: "secondary",
+        statustext: "Very High",
+        programAmount: "$2.4K",
     },
 ];
 
@@ -94,46 +146,38 @@ const topProjectsData: topProjects[] = [
 const topCardsData: topCards[] = [
     {
         img: card_icon1,
-        title: "Employees",
-        number: "96",
-        bgcolor: "lightprimary",
-        textcolor: "primary"
+        title: "All Student",
+        number: "356",
+        bgcolor: "lightsecondary",
+        textcolor: "secondary",
+        colorcode: "#033b4c",
     },
     {
         img: card_icon2,
-        title: "Clients",
-        number: "3,650",
+        title: "All Videos",
+        number: "2530",
         bgcolor: "lightwarning",
-        textcolor: "warning"
+        textcolor: "warning",
+        colorcode: "#033b4c",
     },
-    {
-        img: card_icon3,
-        title: "Projects",
-        number: "356",
-        bgcolor: "lightsecondary",
-        textcolor: "secondary"
-    },
+    
     {
         img: card_icon4,
-        title: "Events",
-        number: "696",
+        title: "Total Courses",
+        number: "48",
         bgcolor: "lighterror",
-        textcolor: "error"
+        textcolor: "error",
+        colorcode: "#033b4c",
     },
     {
         img: card_icon5,
-        title: "Payroll",
+        title: "Total Earning",
         number: "$96k",
         bgcolor: "lightsuccess",
-        textcolor: "success"
+        textcolor: "success",
+        colorcode: "#033b4c",
     },
-    {
-        img: card_icon6,
-        title: "Reports",
-        number: "59",
-        bgcolor: "lightprimary",
-        textcolor: "primary"
-    }
+    
 ]
 
 export { userCardData, weeklyStatsData, topProjectsData,topCardsData}

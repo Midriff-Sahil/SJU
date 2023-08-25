@@ -26,6 +26,7 @@ import {
     ChartRadarIcon,
     ShoppingCartIcon,
     ApertureIcon,
+    UsersIcon,
     LayoutIcon,
     HelpIcon,
     UserCircleIcon,
@@ -62,14 +63,16 @@ export interface menu {
 }
 
 const sidebarItem: menu[] = [
-    { header: 'Home' },
     {
         title: 'Dashboard',
         icon: ApertureIcon,
-        // chip: 'New',
         chipColor: 'surface',
-        chipBgColor: 'secondary',
         to: '/adminDashboards'
+    },
+    {
+        title: 'Staff',
+        icon: UsersIcon,
+        to: '/adminStaff'
     },
     // {
     //     title: 'eCommerce',
