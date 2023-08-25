@@ -60,9 +60,9 @@ import {notifications} from '@/_mockApis/headerData';
                                             </v-avatar>
                                         </template>
                                         <div>
-                                            <h6 class="text-subtitle-1 font-weight-bold mb-1">{{ item.title }}</h6>
+                                            <h6 class="text-subtitle-1 font-weight-bold mb-2">{{ item.title }}</h6>
                                         </div>
-                                        <p class="text-subtitle-1 font-weight-regular mb-2 textSecondary">{{ item.subtitle }}</p>
+                                        <!-- <p class="text-subtitle-1 font-weight-regular mb-2 textSecondary">{{ item.subtitle }}</p> -->
                                         <p class="text-subtitle-2 font-weight-regular textSecondary">2-Aug-2023 | 04.00pm</p>
                                     </v-list-item>
                                     <v-divider></v-divider>
